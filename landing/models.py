@@ -8,7 +8,7 @@ class Subscribers(models.Model):
         return '%s %s' % (self.name, self.email)
 
     class Meta:
-        verbose_name = "Subscriber"
-        verbose_name_plural = "Subscribers"
+        verbose_name = "MySubscriber"
+        verbose_name_plural = "A  lot of Subscribers"
 
 
